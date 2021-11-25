@@ -1,16 +1,13 @@
-@charset "UTF-8";
-
-@font-face {
-    font-family: 'Mistral';
-    src: url(_fonts/mistral/mistral.ttf);
+div > img {
+    padding-top: -100px;
+    max-width: 680px;
+    height: 720px;
 }
 
-div > img {
+div > picture {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: -100px;
-    width: 680px;
-    height: 720px;
 }
 
 body {
@@ -29,7 +26,7 @@ div {
 div > h1{
     font-family: 'Mistral', Arial, sans-serif;
     color: #5c382f;
-    font-size: 6pc;
+    font-size: 5pc;
     display: block;
     text-align: center;
     margin-bottom: 50px;
@@ -40,7 +37,7 @@ div > h1{
 div#contato {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    max-width: 720pc;
+    max-width: 720px;
     padding-bottom: 40px;
     margin-top: -28px;
     margin-bottom: 15px;
