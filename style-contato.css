@@ -19,18 +19,17 @@ body {
 
 div {
     background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px #b98438da;
-    width: 720px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    margin: auto;
+    border-radius: 1pc;
+    box-shadow: 3pc 3pc 5pc #b98438da;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div > h1{
     font-family: 'Mistral', Arial, sans-serif;
-    font-size: 70px;
+    color: #5c382f;
+    font-size: 5pc;
     display: block;
     text-align: center;
     margin-bottom: 50px;
