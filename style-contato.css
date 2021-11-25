@@ -34,14 +34,7 @@ div > h1{
     padding-bottom: -60px;
 }
 
-div#contato {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    max-width: 720px;
-    padding-bottom: 40px;
-    margin-top: -28px;
-    margin-bottom: 15px;
-}
+
 
 div#contato > img {
     background-color: #ffffff;
