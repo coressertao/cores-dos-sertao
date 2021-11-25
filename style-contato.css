@@ -49,8 +49,10 @@ div#contato {
 }
 
 div#contato > img {
+    background-color: #ffffff;
     width: 30px;
     height: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
 }
