@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Mistral';
+    src: url(_fonts/mistral/mistral.ttf);
+}
+
+div > img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: -100px;
+    width: 680px;
+    height: 720px;
+}
+
+body {
+    background-color: #da9c47da;
+}
+
+div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #b98438da;
+    width: 720px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+div > h1{
+    font-family: 'Mistral', Arial, sans-serif;
+    font-size: 70px;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: -60px;
+}
+
+div#contato {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 720px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+div#contato > img {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
